@@ -3,7 +3,7 @@
     "Core": {
         "SourcePath": "\\\\vmware-host\\Shared Folders\\builds\\Drivers\\MemphisODBC\\Core\\1.6\\compile\\Memphis_Core_ODBC_1.6.43.1048_SEN_SimbaEngineSDK_10.1.23.1193\\Core_w2012r2_vs2015_64.zip",
         "DestPath": "C:\\Memphis_ODBC\\Core_1.6.43.1048",
-        "ForceUpdate": false,
+        "ForceUpdate": true,
         "Branch": "Maintenance\\1.6"
     },
     "Plugin": {
