@@ -54,6 +54,7 @@ class Package(ABC):
                     else:
                         print('Error: Expected File Type mismatched. `Zip` required')
                         return False
+                print(filePath)
                 return True
             except Exception as error:
                 print(f"Error: {error}")
@@ -220,7 +221,6 @@ class Plugin(Package):
                 return self.__setRegistryConfigurations(os.path.join(pluginLibFolderPath, 'MPAPlugin.dll'))
             else:
                 print('Error: Core or Plugin is not correctly extracted')
-                print(filePath)
                 return False
         else:
             return False
