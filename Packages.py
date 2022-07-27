@@ -220,6 +220,7 @@ class Plugin(Package):
                 return self.__setRegistryConfigurations(os.path.join(pluginLibFolderPath, 'MPAPlugin.dll'))
             else:
                 print('Error: Core or Plugin is not correctly extracted')
+                print(filePath)
                 return False
         else:
             return False
