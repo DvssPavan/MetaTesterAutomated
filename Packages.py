@@ -44,6 +44,9 @@ class Package(ABC):
             destination = self.getDestinationPath()
             forceUpdate = self.shouldForceUpdate()
             filePath = os.path.join(destination, self.getFileName())
+            print("Destination" + destination)
+            print("ForceUpdate" + forceUpdate)
+            print("FilePath" + filePath)
             try:
                 if not os.path.exists(destination):
                     createDir(destination)
