@@ -192,6 +192,7 @@ class Plugin(Package):
 
             coreBranch = inCoreInfo.getBranch()
             extractedCorePath = inCoreInfo.getDestinationPath()
+            print(extractedCorePath)
             pluginLibFolderPath = os.path.join(extractedPluginPath, 'lib')
 
             if not os.path.exists(os.path.join(extractedPluginPath, f"Branding\\{brand}")):
