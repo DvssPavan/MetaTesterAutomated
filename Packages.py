@@ -206,6 +206,11 @@ class Plugin(Package):
             coreLibPath = os.path.join(extractedCorePath, f"Core\\{coreBranch}\\ODBC\\lib")
             coreThirdPartyPath = os.path.join(extractedCorePath, f"Core\\{coreBranch}\\ODBC\\ThirdParty")
             pluginINIFileInLib = os.path.join(pluginLibFolderPath, f"{brand}.{driverName}ODBC.ini")
+            print("pluginDIDPath " + pluginDIDPath)
+            print("pluginINIPath " + pluginINIPath)
+            print("coreLibPath " + coreLibPath)
+            print("coreThirdPartyPath " + coreThirdPartyPath)
+            print("pluginINIFileInLib " + pluginINIFileInLib)
 
             if all(map(lambda filePath: os.path.exists(filePath),
                        [pluginDIDPath, pluginINIPath, coreLibPath, coreThirdPartyPath])):
