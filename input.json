@@ -1,7 +1,7 @@
 {
     "RemoteMachineAddress": "van-wnt-vm.simba.ad",
     "Core": {
-        "SourcePath": "\\Y\\Drivers\\MemphisODBC\\Core\\1.6\\compile\\Memphis_Core_ODBC_1.6.43.1048_SEN_SimbaEngineSDK_10.1.23.1193\\Core_w2012r2_vs2015_64.zip",
+        "SourcePath": "Y:\\Drivers\\MemphisODBC\\Core\\1.6\\compile\\Memphis_Core_ODBC_1.6.43.1048_SEN_SimbaEngineSDK_10.1.23.1193\\Core_w2012r2_vs2015_64.zip",
         "DestPath": "C:\\Memphis_ODBC\\Core_1.6.43.1048",
         "ForceUpdate": true,
         "Branch": "Maintenance\\1.6"
@@ -9,7 +9,7 @@
     "Plugin": {
         "Compile": [
             {
-                "SourcePath": "\\Y\\Drivers\\MemphisODBC\\DataSources\\Marketo\\1.6\\compile\\Marketo_ODBC_1.6.43.1019_CORE_Memphis_Core_ODBC_1.6.43.1048_SEN_SimbaEngineSDK_10.1.23.1193\\Marketo_w2012r2_vs2015_64.zip",
+                "SourcePath": "Y:\\Drivers\\MemphisODBC\\DataSources\\Marketo\\1.6\\compile\\Marketo_ODBC_1.6.43.1019_CORE_Memphis_Core_ODBC_1.6.43.1048_SEN_SimbaEngineSDK_10.1.23.1193\\Marketo_w2012r2_vs2015_64.zip",
                 "DestPath": "C:\\Memphis_ODBC\\Marketo\\Marketo_ODBC_1.6.43.1019_64Bit",
                 "ForceUpdate": false,
                 "Brand": "Microsoft",
